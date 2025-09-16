@@ -29,6 +29,7 @@
 
 @media (--xl-viewport) {
   .container {
-    max-width: 1312px;
+    max-width: 1200px;
+    box-sizing: content-box;
   }
 }

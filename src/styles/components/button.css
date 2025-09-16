@@ -1,0 +1,35 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  background-color: var(--global-primary);
+  color: var(--base-text-on-dark);
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+
+  &:hover {
+    color: var(--global-primary);
+    border: 1px solid var(--global-primary);
+    border-radius: 1px;
+    background: var(--base-text-on-dark);
+  }
+}
+
+.arrow-icon path {
+  fill: currentcolor;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+}
+
+.button--on-header {
+  line-height: 150%;
+}

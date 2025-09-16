@@ -1,6 +1,15 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Leifa", sans-serif;
+}
+
 body {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--global-dark);
+  color: var(--color-dark-blue);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: transparent;
 }
