@@ -9,13 +9,15 @@
   font-weight: 400;
   column-gap: 10px;
   font-size: 14px;
+  border: 1px solid transparent; /* Добавляем прозрачную границу */
   transition:
     color 150ms linear,
-    background-color 150ms linear;
+    background-color 150ms linear,
+    border-color 150ms linear; /* Добавляем transition для границы */
 
   &:hover {
     color: var(--global-primary);
-    border: 1px solid var(--global-primary);
+    border-color: var(--global-primary); /* Меняем только цвет границы */
     border-radius: 1px;
     background: var(--base-text-on-dark);
   }
@@ -33,7 +35,6 @@
 }
 
 .button--on-header {
-  /* max-width: 172px; */
   min-height: 32px;
   line-height: 150%;
 }
@@ -41,7 +42,6 @@
 .button--on-hero {
   font-family: var(--font-family);
   font-weight: 500;
-  /* font-size: 16px; */
   line-height: 162%;
   letter-spacing: -0.02em;
   color: var(--base-text-on-dark);
@@ -49,4 +49,10 @@
   padding: 15px 25px;
   width: 198px;
   height: 56px;
+}
+
+.button--on-partner {
+  margin-top: 60px;
+  max-width: 198px;
+  padding: 15px 25px;
 }

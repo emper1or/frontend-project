@@ -1,0 +1,82 @@
+.title-1 {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: var(--base-text-on-dark);
+}
+
+.title-2 {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.title-3 {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.text-all {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.text-small {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+  margin: 0;
+}
+
+.statistics__num {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.statistics__num-prefix {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.statistics__num,
+.statistics__num-prefix {
+  display: inline-block;
+  margin: 0;
+}
+
+.title-card {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}

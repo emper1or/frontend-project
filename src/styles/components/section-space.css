@@ -3,9 +3,14 @@
   padding-bottom: 145px;
 }
 
-.section-space--lg {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.section-space--normal {
+  padding-top: 111px;
+  padding-bottom: 111px;
+}
+
+.section-space--small {
+  padding-top: 64px;
+  padding-bottom: 58px;
 }
 
 .section-space--bg {

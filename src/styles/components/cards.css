@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
+
+.card {
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 42px;
+}
+
+.card__description {
+  margin-top: 12px;
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.cards__svg {
+  width: 44px;
+  height: 44px;
+}
+
+.card__content {
+  padding: 0;
+  padding-top: 16px;
+}

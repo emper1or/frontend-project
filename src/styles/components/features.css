@@ -1,0 +1,10 @@
+.features__title {
+  max-width: 540px;
+}
+
+.features__list {
+  max-width: 825px;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 68px;
+}

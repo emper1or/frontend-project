@@ -1,0 +1,9 @@
+.process__title {
+  max-width: 730px;
+}
+
+.process__list {
+  margin-top: 70px;
+  gap: 30px;
+  justify-content: space-between;
+}
