@@ -1,7 +1,6 @@
 .container {
   width: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 0 2px;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -32,4 +31,12 @@
     max-width: 1200px;
     box-sizing: content-box;
   }
+}
+
+.header__container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  column-gap: 52px;
+  padding: 20px 2px;
 }

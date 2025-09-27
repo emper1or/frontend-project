@@ -3,10 +3,10 @@
 
 .nav__list {
   display: flex;
-  gap: 40px;
-  justify-content: left;
   color: var(--base-text-secondary);
   letter-spacing: -0.02em;
+  flex-wrap: wrap;
+  column-gap: 30px;
 }
 
 .nav__link:hover {

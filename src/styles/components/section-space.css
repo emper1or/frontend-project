@@ -1,0 +1,13 @@
+.section-space {
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+
+.section-space--lg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-space--bg {
+  background-color: var(--color-light-gray);
+}
