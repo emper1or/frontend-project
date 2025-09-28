@@ -1,6 +1,6 @@
 @import './styles/global/media.css';
+@import '../public/fonts/font-display.css';
 @import './styles/colors/colors.css';
-@import './styles/colors/font.css';
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
@@ -18,3 +18,4 @@
 @import './styles/components/cards.css';
 @import './styles/components/partner.css';
 @import './styles/components/process.css';
+@import './styles/components/footer.css';

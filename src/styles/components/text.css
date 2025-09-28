@@ -29,6 +29,16 @@
   color: var(--base-text-on-dark);
 }
 
+.title-footer {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
 .text-all {
   font-family: var(--font-family);
   font-weight: 400;
@@ -43,6 +53,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+  margin: 0;
+}
+
+.text-small-footer {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
   letter-spacing: -0.02em;
   color: var(--base-text-on-dark);
   margin: 0;

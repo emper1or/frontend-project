@@ -9,6 +9,10 @@
   column-gap: 30px;
 }
 
+.nav__list--end {
+  color: var(--base-text-on-dark);
+}
+
 .nav__link:hover {
   text-decoration: underline;
 }
