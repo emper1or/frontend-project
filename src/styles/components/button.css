@@ -9,15 +9,15 @@
   font-weight: 400;
   column-gap: 10px;
   font-size: 14px;
-  border: 1px solid transparent; /* Добавляем прозрачную границу */
+  border: 1px solid transparent;
   transition:
     color 150ms linear,
     background-color 150ms linear,
-    border-color 150ms linear; /* Добавляем transition для границы */
+    border-color 150ms linear;
 
   &:hover {
     color: var(--global-primary);
-    border-color: var(--global-primary); /* Меняем только цвет границы */
+    border-color: var(--global-primary);
     border-radius: 1px;
     background: var(--base-text-on-dark);
   }
@@ -55,4 +55,42 @@
   margin-top: 60px;
   max-width: 198px;
   padding: 15px 25px;
+}
+
+.button--on-footer {
+  margin-top: 7px;
+  background: none;
+  padding: 5px 10px 5px 0;
+}
+
+.button--on-footer:hover {
+  color: var(--base-text-on-dark);
+  border-color: transparent;
+  background: none;
+}
+
+.button--on-footer:hover .arrow-icon path {
+  fill: currentcolor;
+}
+
+.button--on-story {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--global-primary);
+  padding: 0;
+  background: none;
+}
+
+.button--on-story:hover {
+  color: var(--base-text-on-dark);
+  border-color: var(--global-primary);
+  border-radius: 1px;
+  background: var(--global-primary);
+}
+
+.button--on-story:hover .arrow-icon path {
+  fill: currentcolor;
 }

@@ -62,3 +62,9 @@
 .footer__text {
   margin-top: 6px;
 }
+
+.footer__link {
+  margin-top: 7px;
+  background: none;
+  padding: 5px 10px 5px 0;
+}
