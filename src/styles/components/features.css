@@ -1,8 +1,17 @@
 .features__title {
   max-width: 540px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
 }
 
 .features__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 60px;
   max-width: 825px;
   justify-content: space-between;
   padding: 0;

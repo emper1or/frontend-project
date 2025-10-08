@@ -13,13 +13,28 @@
   padding-bottom: 42px;
 }
 
+.card__title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
 .card__description {
   margin-top: 12px;
   margin-bottom: 0;
   flex-grow: 1;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
 }
 
-.cards__svg {
+.cards__icon {
   width: 44px;
   height: 44px;
 }

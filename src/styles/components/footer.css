@@ -53,18 +53,40 @@
 
 .footer__span {
   max-width: 390px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
 }
 
 .footer__title {
   margin-top: 33px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
 }
 
 .footer__text {
   margin-top: 6px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
 }
 
 .footer__link {
   margin-top: 7px;
   background: none;
   padding: 5px 10px 5px 0;
+}
+
+.footer__nav {
+
 }

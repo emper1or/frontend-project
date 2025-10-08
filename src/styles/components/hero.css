@@ -44,7 +44,7 @@
   color: var(--base-text-on-dark);
 }
 
-.hero__text {
+.hero__description {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -61,4 +61,9 @@
   letter-spacing: -0.02em;
   color: var(--base-text-on-dark);
   max-width: 250px;
+}
+
+.hero__image {
+  height: 100%;
+  object-fit: cover;
 }
