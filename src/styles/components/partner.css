@@ -46,10 +46,6 @@
   margin: 0;
 }
 
-.partners__item {
-  height: 50px;
-}
-
 .partners__item--width {
   max-width: 130px;
 }
@@ -61,14 +57,20 @@
 .partners__logo {
   width: 100%;
   max-width: 100px;
-  height: 30px;
+  height: 31px;
   fill: var(--base-text-alt);
 }
 
-.partners__list svg {
-  max-width: 130px;
-  height: 40px;
-  outline: none;
+.partners__logo--norm {
+  width: 100%;
+  fill: var(--base-text-alt);
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
 }
 
 .partners__list--many {
@@ -76,5 +78,4 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
 }
