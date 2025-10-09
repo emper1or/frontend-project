@@ -23,15 +23,15 @@
   }
 }
 
-.arrow-icon path {
+.button__icon {
+  margin-left: 10px;
+}
+
+.button__icon path {
   fill: currentcolor;
   transition:
     color 150ms linear,
     background-color 150ms linear;
-}
-
-.arrow-icon {
-  margin-left: 10px;
 }
 
 .button--on-header {
@@ -69,7 +69,7 @@
   background: none;
 }
 
-.button--on-footer:hover .arrow-icon path {
+.button--on-footer:hover .button__icon path {
   fill: currentcolor;
 }
 
@@ -91,6 +91,6 @@
   background: var(--global-primary);
 }
 
-.button--on-story:hover .arrow-icon path {
+.button--on-story:hover .button__icon path {
   fill: currentcolor;
 }
