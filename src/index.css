@@ -13,7 +13,8 @@
 @import './styles/components/video.css';
 @import './styles/components/features.css';
 @import './styles/components/cards.css';
-@import './styles/components/partner.css';
+@import './styles/components/partners.css';
 @import './styles/components/process.css';
 @import './styles/components/footer.css';
 @import './styles/components/story.css';
+@import './styles/components/cta.css';

@@ -1,9 +1,6 @@
 .card {
-  max-width: 255px;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding-bottom: 42px;
 }
 
 .card__title {
@@ -16,8 +13,7 @@
 }
 
 .card__description {
-  margin-top: 12px;
-  margin-bottom: 0;
+  padding-top: 12px;
   flex-grow: 1;
   font-family: var(--font-family);
   font-weight: 400;
@@ -33,6 +29,5 @@
 }
 
 .card__content {
-  padding: 0;
   padding-top: 16px;
 }

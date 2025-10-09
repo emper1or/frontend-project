@@ -11,17 +11,14 @@
 }
 
 .video__text {
-  margin: 0;
-  margin-top: 8px;
+  padding-top: 8px;
 }
 
 .video__list {
-  padding: 0;
-  margin: 0;
   gap: 50px 82px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 36px;
+  padding-top: 36px;
 }
 
 .video__item {
@@ -38,6 +35,7 @@
 }
 
 .video__description {
+  padding-top: 8px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -47,8 +45,6 @@
 }
 
 .video__stats {
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -73,8 +69,7 @@
 }
 
 .video__stats-description {
-  margin-top: 12px;
-  margin-bottom: 0;
+  padding-top: 2px;
   flex-grow: 1;
   font-family: var(--font-family);
   font-weight: 400;

@@ -24,7 +24,7 @@
 }
 
 .button__icon {
-  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .button__icon path {
@@ -74,13 +74,13 @@
 }
 
 .button--on-story {
+  padding: 0;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
   letter-spacing: -0.02em;
   color: var(--global-primary);
-  padding: 0;
   background: none;
 }
 
