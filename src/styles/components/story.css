@@ -1,7 +1,7 @@
 .story__content {
   display: flex;
   justify-content: space-between;
-  background: var(--base-bg-secondary);
+  background: var(--background-secondary);
   padding: 120px 0 115px 95px;
   width: 100%;
   min-height: 700px;
@@ -23,7 +23,7 @@
   font-size: 42px;
   line-height: 124%;
   letter-spacing: -0.02em;
-  color: var(--base-text-primary);
+  color: var(--text-primary);
 }
 
 .story__description {
@@ -32,7 +32,7 @@
   font-size: 42px;
   line-height: 124%;
   letter-spacing: -0.02em;
-  color: var(--base-text-secondary);
+  color: var(--text-secondary);
   padding-top: 30px;
 }
 

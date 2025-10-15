@@ -31,7 +31,7 @@
   font-size: 42px;
   line-height: 124%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .video__description {
@@ -41,7 +41,7 @@
   font-size: 20px;
   line-height: 150%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .video__stats {
@@ -56,7 +56,7 @@
   font-size: 72px;
   line-height: 114%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark); 
+  color: var(--text-deafult);
 }
 
 .video__stats-suffix {
@@ -65,7 +65,7 @@
   font-size: 52px;
   line-height: 119%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .video__stats-description {
@@ -76,5 +76,5 @@
   font-size: 16px;
   line-height: 162%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }

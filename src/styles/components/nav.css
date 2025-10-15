@@ -1,6 +1,6 @@
 .nav__list {
   display: flex;
-  color: var(--base-text-secondary);
+  color: var(--text-secondary);
   letter-spacing: -0.02em;
   flex-wrap: wrap;
   column-gap: 30px;

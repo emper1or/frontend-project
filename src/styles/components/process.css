@@ -13,7 +13,7 @@
   font-size: 52px;
   line-height: 119%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .process__description {
@@ -23,7 +23,7 @@
   font-size: 16px;
   line-height: 162%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .process__title-item {
@@ -32,7 +32,7 @@
   font-size: 42px;
   line-height: 124%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
+  color: var(--text-deafult);
 }
 
 .process__item {

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 5px 20px;
-  background-color: var(--global-primary);
+  background-color: var(--button-back);
   color: var(--base-text-on-dark);
   letter-spacing: -0.02em;
   font-weight: 400;
@@ -16,10 +16,10 @@
     border-color 150ms linear;
 
   &:hover {
-    color: var(--global-primary);
-    border-color: var(--global-primary);
+    color: var(--button-back);
+    border-color: var(--button-border-hover);
     border-radius: 1px;
-    background: var(--base-text-on-dark);
+    background: var(--button-back-hover);
   }
 }
 
@@ -44,14 +44,13 @@
   font-weight: 500;
   line-height: 162%;
   letter-spacing: -0.02em;
-  color: var(--base-text-on-dark);
   border-radius: 1px;
   padding: 15px 25px;
   width: 198px;
   height: 56px;
 }
 
-.button--on-partner {
+.button--on-cta {
   margin-top: 60px;
   max-width: 198px;
   padding: 15px 25px;
@@ -61,12 +60,13 @@
   margin-top: 7px;
   background: none;
   padding: 5px 10px 5px 0;
-}
-
-.button--on-footer:hover {
   color: var(--base-text-on-dark);
-  border-color: transparent;
-  background: none;
+
+  &:hover {
+    color: var(--base-text-on-dark);
+    border-color: transparent;
+    background: none;
+  }
 }
 
 .button--on-footer:hover .button__icon path {
@@ -82,15 +82,11 @@
   letter-spacing: -0.02em;
   color: var(--global-primary);
   background: none;
-}
 
-.button--on-story:hover {
-  color: var(--base-text-on-dark);
-  border-color: var(--global-primary);
-  border-radius: 1px;
-  background: var(--global-primary);
-}
-
-.button--on-story:hover .button__icon path {
-  fill: currentcolor;
+  &:hover {
+    color: var(--button-on-story-color-hover);
+    border-color: var(--button-on-story-boarder-hover);
+    border-radius: 1px;
+    background: var(--button-on-story-back-hover);
+  }
 }

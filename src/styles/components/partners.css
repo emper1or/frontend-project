@@ -10,12 +10,12 @@
   width: 100%;
   max-width: 100px;
   height: 31px;
-  fill: var(--base-text-alt);
+  fill: var(--text-alt);
 }
 
 .partners__logo--norm {
   width: 100%;
-  fill: var(--base-text-alt);
+  fill: var(--text-alt);
 }
 
 .partners__list {
