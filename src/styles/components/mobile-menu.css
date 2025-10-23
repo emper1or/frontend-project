@@ -1,0 +1,29 @@
+.mobile-menu__inner {
+  background-color: black;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transform: translateX(-100%);
+  transition:
+    transform 0.4s,
+    opacity 0.4s;
+  transform-origin: left;
+  height: 100%;
+  width: 80%;
+}
+
+.mobile-menu__inner--active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mobile-menu {
+  display: block;
+}
+
+@media (--md-viewport) {
+  .mobile-menu {
+    display: none;
+  }
+}

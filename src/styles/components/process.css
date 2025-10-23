@@ -57,3 +57,27 @@
 .process__item--finish {
   background-image: url('../../../public/images/finish.svg');
 }
+
+@media (--sm-viewport) {
+  .process__list {
+    justify-content: center;
+  }
+}
+
+@media (--md-viewport) {
+  .process__list {
+    justify-content: space-between;
+  }
+}
+
+@media (--lg-viewport) {
+  .process__item {
+    max-width: 220px;
+  }
+}
+
+@media (--xl-viewport) {
+  .process__item {
+    max-width: 255px;
+  }
+}

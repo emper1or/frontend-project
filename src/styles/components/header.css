@@ -1,3 +1,11 @@
+.header__container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  column-gap: 52px;
+  padding: 20px 2px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,4 +15,27 @@
 
 .header__menu {
   flex-grow: 1;
+}
+
+.header__hamburger {
+  display: block;
+}
+
+@media (--sm-viewport) {
+  .header__nav {
+    display: none;
+  }
+}
+
+@media (--md-viewport) {
+  .header__nav {
+    width: 250px;
+     display: block;
+  }
+}
+
+@media (--lg-viewport) {
+  .header__nav {
+    width: 100%;
+  }
 }

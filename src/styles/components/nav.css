@@ -13,3 +13,9 @@
 .nav__link:hover {
   text-decoration: underline;
 }
+
+@media (--md-viewport) {
+  .nav {
+    row-gap: 0;
+  }
+}

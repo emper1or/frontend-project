@@ -37,7 +37,7 @@
               <img src="/images/Logo.svg" alt />
             </div>
             <div class="header__menu">
-              <nav class="nav">
+              <nav class="header__nav nav">
                 <ul class="nav__list">
                   <li class="nav__item"><a class="nav__link"
                       href="#">Home</a></li>
@@ -63,9 +63,44 @@
                 </svg>
               </button>
             </div>
+            <div class="header__hamburger">
+              <button class="js-menu-active">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-menu"
+                >
+                  <line x1="3" y1="12" x2="21" y2="12"></line>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </header>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu__inner">
+          <nav class="text-lg font-bold text-white p-10">
+            <ul class="flex flex-col gap-10">
+              <li class="nav__item">Главная</li>
+              <li class="nav__item">Главная</li>
+              <li class="nav__item">Главная</li>
+              <li class="nav__item">Главная</li>
+              <li class="nav__item">Главная</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
       <div class="page__content">
         <section class="hero section-space  section-space">
           <div class="hero__container container">
@@ -133,7 +168,7 @@
           </div>
         </section>
 
-        <!-- <section class="video section-space  section-space--normal">
+        <section class="video section-space  section-space--normal">
           <div class="video__container container">
             <div class="video__content">
               <div class="video__left">
@@ -182,7 +217,7 @@
                 </ul>
               </div>
               <div class="video__player">
-                <svg width="530" height="350" viewBox="0 0 530 350" fill="none"
+                <svg viewBox="0 0 530 350" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <rect width="530" height="350" rx="3" fill="#E7EBFC" />
                   <path
@@ -199,7 +234,7 @@
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <section class="features section-space  section-space--normal">
           <div class="features__container container">
@@ -593,7 +628,7 @@
                 </ul>
 
               </nav>
-              <nav class="footer__nav ">
+              <nav class="footer__nav nav">
                 <ul class="nav__list nav__list--footer">
                   <li class="nav__item">
                     <a class="nav__link" href="#">Blog</a>

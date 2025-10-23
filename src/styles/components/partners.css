@@ -30,3 +30,13 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (--sm-viewport) {
+  .partners__list {
+    justify-content: space-between;
+  }
+
+  .partners__list--many {
+    justify-content: center;
+  }
+}
