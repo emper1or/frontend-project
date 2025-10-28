@@ -1,6 +1,9 @@
 .card {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100%;
 }
 
 .card__title {
@@ -31,4 +34,11 @@
 
 .card__content {
   padding-top: 16px;
+}
+
+@media (--sm-viewport) {
+  .card {
+    text-align: left;
+    align-items: flex-start;
+  }
 }

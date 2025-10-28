@@ -17,7 +17,8 @@
 .video__list {
   gap: 50px 82px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   padding-top: 36px;
 }
 
@@ -25,29 +26,32 @@
   max-width: 203px;
 }
 
+.video__stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .video__title {
+  text-align: center;
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 42px;
+  font-size: 30px;
   line-height: 124%;
   letter-spacing: -0.02em;
   color: var(--text-deafult);
 }
 
 .video__description {
+  text-align: center;
   padding-top: 8px;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   letter-spacing: -0.02em;
   color: var(--text-deafult);
-}
-
-.video__stats {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
 }
 
 .video__stats-num {
@@ -69,6 +73,7 @@
 }
 
 .video__stats-description {
+  text-align: center;
   padding-top: 2px;
   flex-grow: 1;
   font-family: var(--font-family);
@@ -80,6 +85,7 @@
 }
 
 .video__player {
+  display: none;
   max-width: 530px;
   max-height: 350px;
   width: 100%;
@@ -88,8 +94,33 @@
 }
 
 @media (--sm-viewport) {
+  .video__content {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .video__title {
+    font-size: 42px;
+  }
+
+  .video__stats {
+    justify-content: center;
+  }
+
+  .video__stats-description {
+    text-align: left;
+  }
+
+  .video__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .video__player {
-    display: none;
+    display: block;
+    width: 80%;
+    height: 80%;
   }
 
   .video__description {
@@ -98,8 +129,16 @@
 }
 
 @media (--md-viewport) {
-  .video__player {
-    display: block;
+  .video__content {
+    flex-direction: row;
+  }
+
+  .video__title {
+    text-align: left;
+  }
+
+  .video__description {
+    text-align: left;
   }
 
   .video__stats-num {
@@ -119,7 +158,16 @@
   }
 
   .video__list {
-    gap: 50px 32px;
+    flex-direction: row;
+  }
+
+  .video__stats {
+    justify-content: left;
+  }
+
+  .video__player {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -147,5 +195,6 @@
 
   .video__list {
     gap: 50px 82px;
+    justify-content: flex-start;
   }
 }

@@ -90,3 +90,10 @@
     background: var(--button-on-story-back-hover);
   }
 }
+
+@media (--sm-viewport) {
+  .button--on-header {
+    padding: ;
+
+  }
+}

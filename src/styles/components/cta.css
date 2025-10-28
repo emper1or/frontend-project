@@ -18,7 +18,7 @@
 .cta__title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 52px;
+  font-size: 25px;
   line-height: 119%;
   letter-spacing: -0.02em;
   color: var(--text-deafult);
@@ -43,4 +43,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (--sm-viewport) {
+  .cta__title {
+    font-size: 52px;;
+  }
 }
