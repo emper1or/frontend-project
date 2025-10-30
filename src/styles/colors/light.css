@@ -1,6 +1,21 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  /* Background group */
+  --background-default: var(--base-bg-primary);
+  --background-secondary: var(--base-bg-secondary);
+
+  /* Text group */
+  --text-deafult: var(--base-text-primary);
+  --text-primary: var(--base-text-primary);
+  --text-secondary: var(--base-text-secondary);
+  --text-alt: var(--color-white);
+
+  /* Button stile */
+  --button-back: var(--global-hover-primary);
+  --button-back-hover: var(--base-bg-primary);
+  --button-border-hover: var(--base-bg-primary);
+  --button-on-story-boarder-hover: var(--base-bg-secondary);
+  --button-on-story-back-hover: none;
+  --button-on-story-color-hover: var(--global-hover-primary);
 }

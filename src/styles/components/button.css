@@ -1,0 +1,98 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: var(--button-back);
+  color: var(--base-text-on-dark);
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  column-gap: 10px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear,
+    border-color 150ms linear;
+
+  &:hover {
+    color: var(--button-back);
+    border-color: var(--button-border-hover);
+    border-radius: 1px;
+    background: var(--button-back-hover);
+  }
+}
+
+.button__icon {
+  padding-left: 10px;
+}
+
+.button__icon path {
+  fill: currentcolor;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+}
+
+.button--on-header {
+  min-height: 32px;
+  line-height: 150%;
+}
+
+.button--on-hero {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  border-radius: 1px;
+  padding: 15px 25px;
+  width: 198px;
+  height: 56px;
+}
+
+.button--on-cta {
+  margin-top: 60px;
+  max-width: 198px;
+  padding: 15px 25px;
+}
+
+.button--on-footer {
+  margin-top: 7px;
+  background: none;
+  padding: 5px 10px 5px 0;
+  color: var(--base-text-on-dark);
+
+  &:hover {
+    color: var(--base-text-on-dark);
+    border-color: transparent;
+    background: none;
+  }
+}
+
+.button--on-footer:hover .button__icon path {
+  fill: currentcolor;
+}
+
+.button--on-story {
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--global-primary);
+  background: none;
+
+  &:hover {
+    color: var(--button-on-story-color-hover);
+    border-color: var(--button-on-story-boarder-hover);
+    border-radius: 1px;
+    background: var(--button-on-story-back-hover);
+  }
+}
+
+@media (--sm-viewport) {
+  .button--on-header {
+    padding: 5px 20px;
+  }
+}

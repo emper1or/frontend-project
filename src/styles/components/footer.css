@@ -1,0 +1,131 @@
+.footer {
+  background: var(--base-bg-dark);
+  padding-top: 70px;
+  padding-bottom: 45px;
+  color: var(--base-text-on-dark);
+}
+
+.footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgb(255 255 255 / 18.8%);
+  row-gap: 30px;
+}
+
+.footer__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.footer__logo {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  align-items: center;
+  display: inline-block;
+  max-width: 108px;
+  height: 24px;
+}
+
+.footer__bottom {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__span {
+  max-width: 390px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+  text-align: center;
+}
+
+.footer__title {
+  padding-top: 33px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.02em;
+}
+
+.footer__text {
+  padding-top: 6px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+}
+
+.footer__link {
+  margin-top: 7px;
+  background: none;
+  padding: 5px 10px 5px 0;
+}
+
+@media (--sm-viewport) {
+  .footer__top {
+    row-gap: 30px;
+  }
+
+  .footer__right {
+    justify-content: center;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media (--md-viewport) {
+  .footer__top {
+    flex-direction: row;
+  }
+
+  .footer__right {
+    max-width: 290px;
+    justify-content: flex-end;
+  }
+
+  .footer__bottom {
+    flex-direction: row;
+    row-gap: 30px;
+  }
+
+  .footer__left {
+    max-width: 300px;
+  }
+
+  .footer__span {
+    align-items: stretch;
+    text-align: left;
+  }
+}
+
+@media (--lg-viewport) {
+  .footer__right {
+    max-width: 570px;
+  }
+}
+
+@media (--xl-viewport) {
+  .footer__left {
+    max-width: 425px;
+  }
+}

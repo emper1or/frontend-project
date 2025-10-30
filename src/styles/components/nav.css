@@ -1,0 +1,26 @@
+.nav__list {
+  display: flex;
+  color: var(--text-secondary);
+  letter-spacing: -0.02em;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.nav__list--footer {
+  color: var(--base-text-on-dark);
+  justify-content: center;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+@media (--md-viewport) {
+  .nav {
+    row-gap: 0;
+  }
+
+  .nav__list--footer {
+    justify-content: flex-end;
+  }
+}
