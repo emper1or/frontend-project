@@ -12,7 +12,6 @@
 .features__list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 60px;
   max-width: 825px;
   justify-content: center;
   padding-top: 36px;
@@ -33,6 +32,12 @@
   .features__title {
     text-align: left;
     font-size: 52px;
+  }
+}
+
+@media (--sm-viewport) {
+  .features__list {
+    row-gap: 60px;
   }
 }
 

@@ -102,10 +102,11 @@
 
   .video__title {
     font-size: 42px;
+    text-align: left;
   }
 
   .video__stats {
-    justify-content: center;
+    justify-content: left;
   }
 
   .video__stats-description {
@@ -125,20 +126,13 @@
 
   .video__description {
     font-size: 18px;
+    text-align: left;
   }
 }
 
 @media (--md-viewport) {
   .video__content {
     flex-direction: row;
-  }
-
-  .video__title {
-    text-align: left;
-  }
-
-  .video__description {
-    text-align: left;
   }
 
   .video__stats-num {
@@ -159,10 +153,6 @@
 
   .video__list {
     flex-direction: row;
-  }
-
-  .video__stats {
-    justify-content: left;
   }
 
   .video__player {
