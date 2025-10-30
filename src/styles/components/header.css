@@ -42,6 +42,7 @@
 @media (--sm-viewport) {
   .header__container {
     column-gap: 52px;
+    padding: 20px 2px;
   }
 
   .header__hamburger {
@@ -63,10 +64,6 @@
 
   .header__nav {
     display: none;
-  }
-
-  .header__container {
-    padding: 20px 2px;
   }
 }
 
