@@ -14,7 +14,11 @@ closeMenuButton.addEventListener('click', () => {
 
 // Close menu when clicking outside
 document.addEventListener('click', (event) => {
-  if (!menu.contains(event.target) && !openMenuButton.contains(event.target) && menu.classList.contains('mobile-menu__inner--active')) {
+  if (
+    !menu.contains(event.target) &&
+    !openMenuButton.contains(event.target) &&
+    menu.classList.contains('mobile-menu__inner--active')
+  ) {
     menu.classList.remove('mobile-menu__inner--active');
   }
 });
